@@ -1,6 +1,7 @@
 program math_funcs
     implicit none
 
+    print "(a)", "Math functions"
     print "(a, i1)", "abs(-1): ", abs(-1)
     print "(a, f3.1)", "sqrt(81): ", sqrt(81.0)
     print "(a, f7.5)", "exp(1): ", exp(1.0)
@@ -10,6 +11,8 @@ program math_funcs
     print "(a, i1)", "floor(2.71): ", floor(2.71)
     print "(a, f3.1)", "max(2.7,3.4): ", max(2.7, 3.4)
     print "(a, f3.1)", "min(2.7,3.4): ", min(2.7, 3.4)
+
+    print "(/, a)", "Trig functions | using radians"
     print "(a, f3.1)", "sin(1.5708): ", sin(1.5708)
     print "(a, f3.1)", "cos(1.5708): ", cos(1.5708)
     print "(a, f11.3)", "tan(1.5708): ", tan(1.5708)
