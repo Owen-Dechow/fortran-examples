@@ -1,3 +1,3 @@
-.exe
-.o
-.mod
+*.exe
+*.o
+*.mod
