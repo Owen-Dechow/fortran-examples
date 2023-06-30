@@ -44,7 +44,7 @@ contains
                     call run_interaction_of_location()
                 end if
             else
-                if (player%health < 100 .and. player%gold > 0) then
+                if (player%health < 35 .and. player%gold > 0) then
                     player%health = player%health + 1
                     player%gold = player%gold - 1
                 end if
