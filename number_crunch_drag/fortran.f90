@@ -1,4 +1,4 @@
-program python_drag_race
+program fortran
     implicit none
 
     integer :: random_seed_put(12)
@@ -63,4 +63,4 @@ contains
         range = max - min + 1
         int = min + floor(range*rand)
     end function
-end program python_drag_race
+end program fortran
