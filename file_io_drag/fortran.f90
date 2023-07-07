@@ -4,8 +4,6 @@ program fortran
     integer :: random_seed_put(12)
     real :: start_time, end_time
 
-    call random_seed(put=random_seed_put)
-
     call cpu_time(start_time)
     call main()
     call cpu_time(end_time)
