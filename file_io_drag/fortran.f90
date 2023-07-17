@@ -1,7 +1,6 @@
 program fortran
     implicit none
 
-    integer :: random_seed_put(12)
     real :: start_time, end_time
 
     call cpu_time(start_time)
