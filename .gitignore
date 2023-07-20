@@ -1,6 +1,7 @@
 *.exe
 *.o
 *.mod
+*.dll
 test.txt
 out.txt
 output/
